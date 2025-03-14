@@ -12,3 +12,18 @@ https://github.com/Rethes/ImageAugmentation.git
 ●	TensorFlow
 ●	NumPy
 ●	Matplotlib
+
+## Image augmentation techniques used
+●	Rotation: Rotates images up to 40 degrees
+●	Width Shift: Shifts the image horizontally by up to 20%
+●	Height Shift: Shifts the image vertically by up to 20%
+●	Zoom: Random zoom by up to 20%
+●	Horizontal Flip: Flips the image horizontally
+●	Rescaling: Normalizes pixel values to the range [0,1]
+
+## Expected output
+●	The script selects 5 random images from the CIFAR-10 dataset.
+●	Each image is displayed alongside its augmented version.
+●	The augmentations showcase the effects of rotation, shifting, zooming, and flipping.
+
+
