@@ -9,22 +9,23 @@ https://github.com/Rethes/ImageAugmentation.git
 
 ## Image Augmentation Techniques Used
 The following augmentation techniques are applied:
-●	Rotation: Rotates images up to 40 degrees
-●	Width Shift: Shifts the image horizontally by up to 20%
-●	Height Shift: Shifts the image vertically by up to 20%
-●	Zoom: Random zoom by up to 20%
-●	Horizontal Flip: Flips the image horizontally
-●	Rescaling: Normalizes pixel values to the range [0,1]
+1. Rotation: Rotates images up to 40 degrees
+2. Width Shift: Shifts the image horizontally by up to 20%
+3. Height Shift: Shifts the image vertically by up to 20%
+4. Zoom: Random zoom by up to 20%
+5. Horizontal Flip: Flips the image horizontally
+6. Rescaling: Normalizes pixel values to the range [0,1]
 
 ## Training and Evaluation
 The model is trained using the Adam optimizer and sparse categorical cross-entropy loss. The training dataset is split into training and validation sets, with 80% of the data used for training and 20% used for validation. The model is trained for 10 epochs with a batch size of 64
 
 
 ## Technologies Used
-●	Python 3.7+
-●	TensorFlow
-●	NumPy
-●	Matplotlib
+1. Python 3.7+
+2. TensorFlow
+3. NumPy
+4. Matplotlib
 
 To install the required libraries, run:
 pip install tensorflow numpy matplotlib
+
